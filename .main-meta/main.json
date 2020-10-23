@@ -3,28 +3,28 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
+        "name": "com.microchip.mcu8.mplabx.project.8ball",
+        "version": "1.0.0",
+        "displayName": "8BALL",
+        "projectName": "8ball",
         "shortDescription": "",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
-			{
-				"name": "",
-				"semverRange": ""
-			}
-		],
+            {
+                "name": "XC8",
+                "semverRange": "^2.20.0"
+            }
+        ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC16F1xxxx_DFP",
+            "semverRange": "^1.4.119"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,37 +32,62 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "PIC16F18446",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
+            "MCC",
+            "IoT",
+            "Touch",
+            "Automotive",
             [
-               "Peripherals", ""
+                "Peripherals",
+                "I2C"
             ],
             [
-               "Peripherals", ""
-            ]            			
+                "Peripherals",
+                "TMR2"
+            ],
+            [
+                "Peripherals",
+                "IC"
+            ],
+            [
+                "Peripherals",
+                "PORT"
+            ]
         ],
         "peripherals": [
-            "",""
+            "I2C",
+            "TMR2",
+            "IC",
+            "PORT"
         ],
         "keywords": [
-            "",
-            ""			
+            "Automotive",
+            "8 ball",
+            "Future Electronics",
+            "Touch sensing",
+            "Interrupts",
+            "Medical",
+            "Industrial processing control",
+            "Long-life, battery-powered devices",
+            "Battery-powered devices",
+            "Home appliances",
+            "Wearable electronics"
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
