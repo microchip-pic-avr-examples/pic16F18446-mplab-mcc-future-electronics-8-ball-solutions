@@ -76,7 +76,11 @@
             "Long-life, battery-powered devices",
             "Battery-powered devices",
             "Home appliances",
-            "Wearable electronics"
+            "Wearable electronics",
+            "Low power",
+            "Sensor",
+            "Debounce"
+           
         ],
         "additionalData": {
             "longDescription": {
