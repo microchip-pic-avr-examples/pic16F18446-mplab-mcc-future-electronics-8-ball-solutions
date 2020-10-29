@@ -6,7 +6,7 @@
         "name": "com.microchip.mcu8.mplabx.project.8ball",
         "version": "1.0.0",
         "displayName": "8BALL",
-        "projectName": "8ball",
+        "projectName": "pic16F18446-mplab-mcc-future-electronics-8-ball-solutions",
         "shortDescription": "",
         "ide": {
             "name": "MPLAB X",
